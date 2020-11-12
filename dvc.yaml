@@ -2,6 +2,7 @@ stages:
   main:
     cmd: python test.py --name coco_pretrained --dataset_mode coco --dataroot datasets/coco_stuff
     deps:
+    - checkpoints/coco_pretrained
     - datasets/coco_stuff
     - test.py
     outs:
