@@ -4,9 +4,9 @@ main:
   - path: checkpoints/coco_pretrained
     md5: 2b528bc16d0a21d3bc9495426b5c96a3.dir
   - path: datasets/coco_stuff
-    md5: a4cd13a6757c31d4b35f85b4557cce85.dir
+    md5: 5390b359636400e3ef39d3f958cc8786.dir
   - path: test.py
     md5: e04759e74a78c6bca32cff5806be8193
   outs:
   - path: results
-    md5: ad946d15e4ceec8229f8ed69d56fafef.dir
+    md5: 22f178982ea0e4db940c4d95af53cd01.dir
