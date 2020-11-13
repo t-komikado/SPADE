@@ -1,12 +1,12 @@
 main:
-  cmd: python test.py --name coco_pretrained --dataset_mode coco --dataroot datasets/coco_stuff
+  cmd: python test.py --name coco_pretrained --dataset_mode coco --dataroot datasets/raw/coco_stuff
   deps:
   - path: checkpoints/coco_pretrained
     md5: 2b528bc16d0a21d3bc9495426b5c96a3.dir
-  - path: datasets/coco_stuff
+  - path: datasets/raw/coco_stuff
     md5: a4cd13a6757c31d4b35f85b4557cce85.dir
   - path: test.py
     md5: e04759e74a78c6bca32cff5806be8193
   outs:
   - path: results
-    md5: ad946d15e4ceec8229f8ed69d56fafef.dir
+    md5: 69bf497e5aa36bd72bf46045c15579ca.dir
