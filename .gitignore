@@ -6,3 +6,4 @@ results/
 *.zip
 *.pkl
 *.pyc
+/datasets
